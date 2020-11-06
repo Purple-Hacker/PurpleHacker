@@ -19,7 +19,7 @@ body {
     margin:10px 0px;
     padding:5px 50px;
     transition:all 200ms linear;
-    width:100%;
+    max-width:150px;
     text-align: right;
   }
   .navigation a:hover {

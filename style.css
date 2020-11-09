@@ -35,7 +35,7 @@ body {
     padding:80px 20px 0px;
     min-height:100vh;
     transition:all 600ms ease-in-out;
-    width:100px;
+    width:100%;
   }
   .content .ham-btn {
     position:absolute;

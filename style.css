@@ -39,6 +39,7 @@ body {
     min-height: 100vh;
     transition: all 600ms ease-in-out;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .content .ham-btn {
@@ -75,6 +76,10 @@ body.sideActive {
     overflow: hidden;
 }
 
+body {
+    overflow-x: hidden;   
+}
+
 body.sideActive .content .ham-btn span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
@@ -92,4 +97,8 @@ body.sideActive .content .ham-btn span:nth-child(3) {
 body.sideActive .content {
     top: 80px;
     left: 250px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

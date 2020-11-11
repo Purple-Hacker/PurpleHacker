@@ -102,6 +102,11 @@ body.sideActive .content {
     left: 250px;
 }
 
+.bold {
+    font-weight: bold;
+    font-size: 21px;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }

@@ -20,7 +20,7 @@ body {
     display: block;
     margin: 10px 0px;
     padding: 5px 50px;
-    /*transition: all 200ms linear;*/
+    transition: all 600ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
     max-width: 150px;
     text-align: right;
 }

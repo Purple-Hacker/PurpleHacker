@@ -20,7 +20,7 @@ body {
     display: block;
     margin: 10px 0px;
     padding: 5px 50px;
-    transition: all 200ms linear;
+    /*transition: all 200ms linear;*/
     max-width: 150px;
     text-align: right;
 }
@@ -37,7 +37,7 @@ body {
     background: #fff;
     padding: 80px 20px 0px;
     min-height: 100vh;
-    transition: all 600ms ease-in-out;
+    transition: all 600ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
     width: 100%;
     overflow-x: hidden;
 }

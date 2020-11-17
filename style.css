@@ -1,6 +1,8 @@
 body {
     margin: 0px;
     font-family: "Open Sans", sans-serif;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 p {
@@ -43,8 +45,7 @@ p {
     transition: all 600ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
     width: 100%;
     overflow-x: hidden;
-    height: 100%;
-    overflow-y: hidden;
+    
 }
 
 .content .ham-btn {

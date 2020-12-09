@@ -1,5 +1,6 @@
 while (true) {
-    if (event.ctrlKey) { 
-                window.location.href = "https://google.com"; 
-      } 
+    if (e.ctrlKey) {
+      console.log("ctr key was pressed");
+      window.location.href = "https://google.com"; 
+   }
 }

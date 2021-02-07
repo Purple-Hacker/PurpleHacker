@@ -1,1 +1,4 @@
-<input type="text" value="test123" id="myInput">
+
+  var copyText = "text";
+  copyText.select();
+  document.execCommand("copy");

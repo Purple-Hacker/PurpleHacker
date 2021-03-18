@@ -111,3 +111,14 @@ body.sideActive .content {
 ::-webkit-scrollbar {
     display: none;
 }
+
+/*                     404         */
+.fourofour {
+   font-size: 20px;
+   position: absolute;
+   text-align: center;
+   top: 35%;
+   width: 100%;
+   line-height: 1;
+   font-family: 'Open Sans';
+}

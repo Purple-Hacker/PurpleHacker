@@ -27,3 +27,4 @@ function FindReact(dom, traverseUp = 0) {
     }
     return compFiber.stateNode;
 }
+let r= FindReact(document.querySelector(".arts__body___3CJwS-camelCase"))

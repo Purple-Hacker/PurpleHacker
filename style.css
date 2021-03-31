@@ -6,6 +6,9 @@ body {
 p {
     font-size: 20px;
 }
+.small {
+    font-size: 10px;
+}
 .navigation {
     position: fixed;
     top: 0px;

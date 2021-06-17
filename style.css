@@ -43,7 +43,7 @@ p {
     background: #fff;
     padding: 80px 20px 0px;
     min-height: 100vh;
-    /*transition: all 600ms cubic-bezier(0.46, 0.03, 0.52, 0.96);*/
+    transition: all 600ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
     width: 100%;
     overflow-x: hidden;
     

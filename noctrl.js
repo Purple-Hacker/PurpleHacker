@@ -4,6 +4,8 @@
       window.location.href = "https://google.com"; 
    }
 }*/
+var cntrlIsPressed = false;
+
 $(document).keydown(function(event) {
     if (event.which == "17")
         cntrlIsPressed = true;
@@ -17,4 +19,4 @@ $(document).keyup(function() {
         window.location.href = "https://google.com";
 });
 
-var cntrlIsPressed = false;
+

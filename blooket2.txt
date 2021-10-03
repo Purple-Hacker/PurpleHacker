@@ -1,1 +1,0 @@
-let r= FindReact(document.querySelector(".arts__body___3CJwS-camelCase"))
